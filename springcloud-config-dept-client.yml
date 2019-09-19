@@ -36,7 +36,7 @@ eureka:
       #单机配置
       #defaultZone: http://localhost:7001/eureka
       #集群配置
-      defaultZone: http://eureka7001.com:7001/eureka/
+      defaultZone: http://eureka7001.com:7001/eureka
   instance:
     #服务实例名称修改：自定义本服务名称信息
     instance-id: springcloud-dept-8001.com
@@ -45,7 +45,7 @@ eureka:
 
 #添加eureka-server页面中info的配置信息(方便该微服务信息的查看)
 info:
-  app.name: springcloud-micoservices
+  app.name: springcloud-springCloudConfig01
   company.name: www.atguigu.com
   build.artifactId: ${project.artifactId}
   build.version: ${project.version}
@@ -84,7 +84,7 @@ eureka:
       #单机配置
       #defaultZone: http://localhost:7001/eureka
       #集群配置
-      defaultZone: http://eureka7001.com:7001/eureka/
+      defaultZone: http://eureka7001.com:7001/eureka
   instance:
     #服务实例名称修改：自定义本服务名称信息
     instance-id: springcloud-dept-8001.com
@@ -93,7 +93,7 @@ eureka:
 
 #添加eureka-server页面中info的配置信息(方便该微服务信息的查看)
 info:
-  app.name: springcloud-micoservices
+  app.name: springcloud-springCloudConfig02
   company.name: www.atguigu.com
   build.artifactId: ${project.artifactId}
   build.version: ${project.version}
