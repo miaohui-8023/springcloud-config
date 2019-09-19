@@ -52,7 +52,7 @@ info:
   
 ---
 server:
-  port: 8001
+  port: 8002
 
 #mybatis 配置
 mybatis:
